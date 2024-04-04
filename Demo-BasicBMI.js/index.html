@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Basic</title>
+    <!-- <script>
+        window.alert("success");
+        alert("hello world");
+    </script> -->
+    <!-- <script defer src="./main.js"></script>
+    <script defer src="./vendor.js"></script> -->
+    <script defer src="./calculation.js"></script>
+</head>
+<body>
+    <h1 id="heading">Calculate Your Body Mass Index</h1>
+    <p>Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women</p>
+    
+    <label for="height-field">Height (meters)</label>
+    <input id="height-field" type="number">
+
+    <label for="weight-field">Weight (kg):</label>
+    <input id="weight-field" type="number">
+
+    <button onclick="calculateBMI()">Calculate</button>
+    <br>
+    <p>Your results are: <span id="result">__</span></p>
+
+</body>
+</html>
